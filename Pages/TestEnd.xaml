@@ -1,0 +1,27 @@
+﻿<Page x:Class="FIZIKEND.Pages.TestEnd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FIZIKEND.Pages"
+      mc:Ignorable="d"
+      Title="TestEnd" Height="768" Width="1368">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Image x:Name="fizik" Source="/Images/fizik.png" Width="400" Height="250"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="Вы завершили тест" FontSize="40"/>
+            <TextBlock Text="Правильных ответов - 1/10" FontSize="30"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Image  Source="/Images/dobriy.png" Width="700" Height="300"/>
+        </StackPanel>
+    </Grid>
+</Page>

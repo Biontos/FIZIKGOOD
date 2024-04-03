@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FIZIKEND": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

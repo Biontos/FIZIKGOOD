@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\dobriy.png" />
+    <None Remove="Images\electro.jpg" />
+    <None Remove="Images\fizik.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Style.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\dobriy.png" />
+    <Resource Include="Images\electro.jpg" />
+    <Resource Include="Images\fizik.png" />
+  </ItemGroup>
+
+</Project>
